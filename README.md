@@ -3,7 +3,10 @@
 
 This is a repository of two notebooks I used for a quick seminar for **Computational Physics with Laboratory** (22018) course in [*Università degli Studi di Palermo*](https://www.unipa.it/) held by professor *Grazia Cottone*.
 
-This is an example of a possible `README.md` file which is displayed in the homepage of the repository.
+This is an example of a possible `README.md` file which is displayed in the homepage of the repository.  
+Now to keep the holiday theme:
+
+![south park meme](https://media.tenor.com/jrTclERLxWgAAAAC/merry-christmas-everyone-santa-clause.gif)
 
 ## References
 
