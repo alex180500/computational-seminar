@@ -6,7 +6,7 @@ import pandas as pd
 import streamlit as st
 
 st.write(
-    """# Streamlit Example with Palermo Meteorological Data  
+    """# Streamlit Example with some weather and derivatives  
 _*by Alessandro Romancino for Computational Physics Course*_
 
 [Code on Github](https://github.com/alex180500/computational-seminar)"""
@@ -16,9 +16,10 @@ with st.sidebar:
     if st.button("Merry Christmas"):
         st.snow()
 
-tab1, tab2 = st.tabs(["Palermo Weather", "Actually Useful Stuff"])
+tab1, tab2 = st.tabs(["Punta Raisi Weather", "Actually Useful Stuff"])
 
 with tab1:
+    st.write("Data taken from [meteostat](https://meteostat.net/en/station/16405)")
     today = datetime.now()
     yesterday = today - timedelta(days=4)
 
